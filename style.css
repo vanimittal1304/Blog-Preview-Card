@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(250, 208, 70);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px;
+}
+.headerImage{
+    margin: 20px;
+    width: 100%;
+    overflow: hidden; 
+}
+.header{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 90%;
+    height: auto; 
+}
+
+.basicDetails{
+    margin: 5px 20px;
+    margin-bottom: 5px;
+}
+h4{
+    background-color: rgb(250, 208, 70);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.cardDetails{
+    margin: 20px;
+}
+h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.cardDetails p{
+    color: gray;
+}
+.creater{
+    margin: 20px;
+    display: flex;
+}
+.profile{
+    height: 21px;
+    display: inline-block;
+}
+.user{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+h1:hover{
+    color: rgb(250, 208, 70);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px){
+    .container{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 940px) and (min-width: 768px){
+    .container{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 425px){
+    .container{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 425px) and (min-width: 0px){
+    .container{
+        width: 80%;
+    }
+}
